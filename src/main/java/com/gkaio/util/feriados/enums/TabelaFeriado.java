@@ -8,18 +8,18 @@ public enum TabelaFeriado {
     TIRADENTES("Tiradentes", MonthDay.of(Month.APRIL, 21), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),    
     DIA_DO_TRABALHO("Dia do Trabalho", MonthDay.of(Month.MAY, 1), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),
     CORPUS_CHRISTI("Corpus Christi", null, Abrangencia.MUNICIPAL, Local.BRASIL, Tipo.MOVEL),
-    INDEPENDENCIA_DO_BRASIL("Independêcia do Brasil", MonthDay.of(Month.SEPTEMBER, 7), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),
+    INDEPENDENCIA_DO_BRASIL("IndependÃªncia do Brasil", MonthDay.of(Month.SEPTEMBER, 7), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),
     NOSSA_SENHORA_APARECIDA("Nossa Senhora Aparecida", MonthDay.of(Month.OCTOBER, 12), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),
     FINADOS("Finados", MonthDay.of(Month.NOVEMBER, 2), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),
-    PROCLAMACAO_DA_REPUBLICA("Proclamação da República", MonthDay.of(Month.NOVEMBER, 15), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),
+    PROCLAMACAO_DA_REPUBLICA("ProclamaÃ§Ã£o da RepÃºblica", MonthDay.of(Month.NOVEMBER, 15), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),
     NATAL("Natal", MonthDay.of(Month.DECEMBER, 25), Abrangencia.NACIONAL, Local.BRASIL, Tipo.FIXO),
     
     CARNAVAL("Carnaval", null, Abrangencia.NACIONAL, Local.BRASIL, Tipo.MOVEL),
-    PASCOA("Páscoa", null, Abrangencia.NACIONAL, Local.BRASIL, Tipo.MOVEL),
+    PASCOA("PÃ¡scoa", null, Abrangencia.NACIONAL, Local.BRASIL, Tipo.MOVEL),
     SEXTA_FEIRA_SANTA("Sexta-feira Santa", null, Abrangencia.NACIONAL, Local.BRASIL, Tipo.MOVEL),
 
-    ANIVERSARIO_DE_SP("Aniversário de São Paulo", MonthDay.of(Month.NOVEMBER, 20), Abrangencia.MUNICIPAL, Local.SP, Tipo.FIXO),
-    DIA_DA_CONSCIENCIA_NEGRA("Dia da Consciência Negra", MonthDay.of(Month.NOVEMBER, 20), Abrangencia.MUNICIPAL, Local.SP, Tipo.FIXO);
+    ANIVERSARIO_DE_SP("AniversÃ¡rio de SÃ£o Paulo", MonthDay.of(Month.NOVEMBER, 20), Abrangencia.MUNICIPAL, Local.SP, Tipo.FIXO),
+    DIA_DA_CONSCIENCIA_NEGRA("Dia da ConsciÃªncia Negra", MonthDay.of(Month.NOVEMBER, 20), Abrangencia.MUNICIPAL, Local.SP, Tipo.FIXO);
     
     
     private String nome;

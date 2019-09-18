@@ -173,7 +173,7 @@ public class Feriado {
 
 	@Override
 	public String toString() {
-		return "Feriado [tabelaFeriado=" + tabelaFeriado + ", data=" + data + "]";
+		return "Feriado " + tabelaFeriado.getNome() + " do tipo " + tabelaFeriado.getTipo() + " e com abrangencia " + tabelaFeriado.getAbrangencia() + " ocorre na data " + data;
 	}
 
 	@Override
